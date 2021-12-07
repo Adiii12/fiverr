@@ -1,0 +1,336 @@
+/* second media query 992 end here==================== */
+@media only screen and (min-width: 768px) {
+  /* remove header top section ========================== */
+  .top_remove {
+    display: block;
+  }
+  /* main menu section start here==================================== */
+  .top_remove .top_remove_inner .left p {
+    font-size: 10px;
+  }
+  .main_menu .main_menu_inner .left h3 {
+    margin-right: 15px;
+  }
+  .main_menu .main_menu_inner .left .menu_list a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding: 15px 10px;
+  }
+
+  /* financial service section start here ========================= */
+  .financial_service {
+    width: 100%;
+    flex-direction: column;
+  }
+  .financial_service .left {
+    width: 100%;
+    padding: 80px 5%;
+  }
+  .financial_service .left h1 {
+    font-size: 25px;
+  }
+  .financial_service .left p {
+    font-size: 17px;
+
+    position: absolute;
+    z-index: 10;
+  }
+  .financial_service .left p span {
+    display: none;
+  }
+  .financial_service .right {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+  }
+  .financial_service .right p {
+    font-size: 17px;
+    margin-top: 100px;
+  }
+  /* financial service section end here============================ */
+
+  /* where it matter section satrt here =========================== */
+  .where_it_matter {
+    width: 100%;
+    height: 300px;
+  }
+  .where_it_matter .content {
+    width: 90%;
+    text-align: center;
+    margin: auto 5%;
+  }
+
+  .where_it_matter .content .content_inner {
+    bottom: 0px !important;
+    height: 400px;
+  }
+
+  .where_it_matter .content .commited {
+    padding: 15px;
+    text-align: center;
+    right: 0px;
+  }
+
+  /* security advantages section start here ======================= */
+  .security_advantage .row {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .security_advantage .row .left {
+    width: 100%;
+    padding: 15px 5%;
+  }
+
+  .security_advantage .row .right {
+    width: 100%;
+    height: 500px;
+  }
+  .security_advantage .row .right {
+    background-position: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* security advantages section end here ========================= */
+  /* main menu section end here==================================== */
+
+  /* retail content start here =================================== */
+  .retail {
+    height: auto;
+    position: relative;
+    margin: 25px 0px;
+    padding-top: 25px;
+  }
+
+  .retail .retail_top_card {
+    width: 90%;
+    margin-top: -100px;
+    border: 1px solid red;
+    margin: 25px auto;
+    position: static;
+    flex-direction: row;
+  }
+  .retail .retail_top_card .retail_client,
+  .institute_client {
+    width: 300px;
+    border: 1px solid red;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  /* .retail .retail_top_card .institute_client {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  padding: 25px;
+} */
+
+  .retail_bottom_card {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    position: static;
+    border: 1px solid red;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .retail_bottom_card .card_left,
+  .card_center,
+  .card_right {
+    margin-bottom: 25px;
+    position: relative;
+    width: 300px;
+  }
+
+  /* <!-- footer section start here =========================== --> */
+}
+/* second media query 600 end here==================== */
+@media only screen and (min-width: 992px) {
+  /* financial service section start here ========================= */
+  .financial_service {
+    width: 100%;
+    flex-direction: row;
+  }
+  .financial_service .left {
+    width: 60%;
+    /* padding: 80px 130px 50px 150px; */
+  }
+  .financial_service .left h1 {
+    font-size: 35px;
+    color: blue;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .financial_service .left p {
+    font-size: 25px;
+    position: relative;
+  }
+  .financial_service .left p span {
+    position: absolute;
+    right: -50%;
+    border-bottom: 2px solid red;
+    width: 430px;
+    bottom: 10px;
+  }
+  .financial_service .right {
+    width: 40%;
+    text-align: end;
+    padding: 0px 50px;
+    height: 700px;
+  }
+  .financial_service .right p {
+    margin-top: 400px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid red;
+  }
+
+  /* financial service section end here============================ */
+
+  /* where it matter section satrt here =========================== */
+  .where_it_matter {
+    width: 100%;
+    position: relative;
+    height: 350px;
+  }
+  .where_it_matter .content {
+    position: absolute;
+    width: 90%;
+    text-align: left;
+    margin: auto 5%;
+    color: black;
+    border: 1px solid red;
+  }
+
+  .where_it_matter .content .fas {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .where_it_matter .content h1 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .where_it_matter .content .content_inner {
+    bottom: 0px !important;
+    height: 400px;
+  }
+
+  .where_it_matter .content .commited {
+    padding: 15px;
+    text-align: center;
+    right: 0px;
+  }
+  /* where it matter section satrt here =========================== */
+
+  .security_advantage .row {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .security_advantage .row .left {
+    width: 50%;
+    border: 1px solid red;
+  }
+  .security_advantage .row .left p {
+    font-size: 17px;
+    margin: 15px 0px;
+  }
+  .security_advantage .row .left h3 {
+    color: blue;
+    font-size: 25px;
+    margin: 15px 0px;
+  }
+  .security_advantage .row .right {
+    width: 50%;
+    height: 700px;
+  }
+  .security_advantage .row .right {
+    /* background-image: url("../Assets/KLCity Green Energy-100.jpg"); */
+    background-position: 100% 60%;
+    /* background-size: cover; */
+  }
+
+  /* security advantages section end here ========================= */
+
+  /* retail content start here =================================== */
+  .retail {
+    height: 600px;
+    position: relative;
+    margin-bottom: 100px;
+    padding-top: 25px;
+  }
+
+  .retail .retail_top_card {
+    width: 70%;
+    margin-top: -100px;
+    position: absolute;
+    border: 1px solid red;
+    /* margin: 25px auto; */
+    margin-top: -110px;
+    left: 15%;
+    justify-content: space-around;
+    position: static;
+    flex-direction: row;
+  }
+  .retail .retail_top_card .retail_client,
+  .institute_client {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 25px;
+    /* position: relative; */
+    padding: 35px;
+  }
+  .retail .retail_top_card .retail_client h1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: 550;
+  }
+  .retail .retail_top_card .retail_client p {
+    margin: 15px 0px;
+    font-size: 17px;
+  }
+
+  .retail .retail_top_card .institute_client h1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: 550;
+  }
+  .retail .retail_top_card .institute_client p {
+    margin: 15px 0px;
+    font-size: 17px;
+  }
+
+  .retail .retail_top_card .retail_client .fas {
+    position: absolute;
+    cursor: pointer;
+    bottom: 10px;
+    z-index: 100;
+  }
+
+  .retail .retail_top_card .institute_client .fas {
+    position: absolute;
+    cursor: pointer;
+    bottom: 10px;
+    z-index: 100;
+  }
+
+  .retail_bottom_card {
+    flex-wrap: nowrap;
+  }
+  .retail_bottom_card .card_left,
+  .card_center,
+  .card_right {
+    margin-bottom: 25px;
+    position: relative;
+    width: 270px;
+  }
